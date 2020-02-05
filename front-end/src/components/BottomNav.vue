@@ -9,5 +9,8 @@
       <p>5856 Ryslinge</p>
       <p>Tlf: 23247077</p>
     </div>
+    <div class="copyright">
+     <p>Copyright &copy; 2020 Salon Sund Og Smuk</p>
+    </div>
   </div>
 </template>
