@@ -12,6 +12,5 @@
 
 <script>
 export default {}
+// <img src="../../public/logo.png" alt="logo" height="50" width="250">
 </script>
-
-<style></style>
