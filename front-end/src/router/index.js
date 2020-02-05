@@ -1,18 +1,32 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Forside from '../views/Forside.vue'
+import Priser from '../views/Priser.vue'
+import Åbningstider from '../views/Åbningstider.vue'
+import FindVej from '../views/FindVej.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home
+    name: 'forside',
+    component: Forside
   },
   {
-    path: '/about',
-    name: 'about'
+    path: '/priser',
+    name: 'priser',
+    component: Priser
+  },
+  {
+    path: '/åningstider',
+    name: 'åningstider',
+    component: Åbningstider
+  },
+  {
+    path: '/findvej',
+    name: 'findvej',
+    component: FindVej
   }
 ]
 
