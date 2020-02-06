@@ -19,8 +19,8 @@ const routes = [
     component: Priser
   },
   {
-    path: '/åningstider',
-    name: 'åningstider',
+    path: '/åbningstider',
+    name: 'åbningstider',
     component: Åbningstider
   },
   {

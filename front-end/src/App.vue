@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <TopNav />
-    <router-view />
     <v-content class="hej">
+       <router-view />
     </v-content>
     <Footer />
   </v-app>
@@ -10,7 +10,7 @@
 
 <script>
 import TopNav from './components/TopNav'
-import Footer from './components/BottomNav'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',

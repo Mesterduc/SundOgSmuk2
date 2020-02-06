@@ -1,5 +1,9 @@
 <template>
-  <div>hasdej</div>
+  <div class="main-container">
+    <div class="priser-container">
+         <h1>hej</h1>
+    </div>
+  </div>
 </template>
 
 <script>
