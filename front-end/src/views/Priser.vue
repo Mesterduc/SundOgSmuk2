@@ -1,7 +1,7 @@
 <template>
   <div class="main-container">
     <div class="priser-container">
-         <h1>hej</h1>
+         <h1>hej3</h1>
     </div>
   </div>
 </template>
