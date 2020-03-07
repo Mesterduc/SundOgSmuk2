@@ -1,7 +1,10 @@
 <template>
+  <div class="footer-container">
   <div class="main-footer">
     <div class="footer-logo">
-      <h1> Salon Sund & Smuk</h1>
+      <router-link to="/" class="footer-logo">
+        <h1> Salon Sund & Smuk </h1>
+      </router-link>
     </div>
     <div class="footer-kontakt">
       <h1>Kontakt</h1>
@@ -11,8 +14,9 @@
       <p>Mail: phuong@.......com</p>
 
     </div>
-    <div class="copyright">
-     <p>Copyright &copy; 2020 Salon Sund Og Smuk</p>
+  </div>
+   <div class="copyright">
+     <p>2020 Copyright &copy; Salon Sund Og Smuk</p>
     </div>
   </div>
 </template>
