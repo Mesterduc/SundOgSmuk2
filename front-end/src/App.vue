@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-content>
+      <Cover />
       <TopNav />
       <router-view />
     </v-content>
@@ -11,11 +12,13 @@
 <script>
 import TopNav from './components/TopNav'
 import Footer from './components/Footer'
+import Cover from './components/Cover'
 
 export default {
   name: 'App',
 
   components: {
+    Cover,
     TopNav,
     Footer
   },

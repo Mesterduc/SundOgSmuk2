@@ -1,49 +1,57 @@
-.top-nav
-  display: flex
-  flex-direction: column
-  align-items: center
-  background-color: $light-grey
-  padding-bottom: 12px
-  .title1
-    color: $black
-    font-size: 40px
-    font-family: Avantgarde, TeX Gyre 
-    margin: 15px 0px 15px 0px
-    text-align: center
-  
-  .knap
+.topNav_footer-container
+  background-color: $black
+  position: sticky
+  top: 0
+  z-index: 1
+  padding-top: 10px
+  // opacity: 0.5
+  &:active
+    // opacity: 0
+    background-color: white
+
+  .top-nav
     display: flex
-    justify-content: center
+    flex-direction: column
     align-items: center
-    border-top: 1px solid $dark-grey
-    border-bottom: 1px solid $dark-grey
-    width: 65%
-  
-  .knap-sti
-    display: flex
-    justify-content: center
-    align-items: center
-    text-decoration: none
-    margin: 0rem
-    color: $dark-grey
-    height: 50px
-    width: 200px
-    font-size: 25px
-    &:hover
-      background-color: $dark-grey
-      color: $black
-      padding: 1px
+    // background-color: $light-grey
+    padding-bottom: 12px
+    .knap
+      // position: sticky
+      // top: 30px
+      // left:
+      // width: 100%
+      display: flex
+      justify-content: center
+      align-items: center
+      border-top: 1px solid $dark-grey
+      border-bottom: 1px solid $dark-grey
+      width: 76%
+    
+    .knap-sti
+      display: flex
+      justify-content: center
+      align-items: center
+      text-decoration: none
+      margin: 0rem
+      color: $dark-grey
+      height: 50px
+      width: 200px
+      font-size: 25px
+      &:hover
+        background-color: $dark-grey
+        color: $black
+        padding: 1px
+        border-radius: 5px
+        
+    .router-link-exact-active
+      background-color:  $dark-grey
       border-radius: 5px
-      
-  .router-link-exact-active
-    background-color:  $dark-grey
-    border-radius: 5px
-    color: $black
-    // text-decoration: none
-  
-  
+      color: $black
+      // text-decoration: none
+    
+    
 
 
-      
-// burger menu ved 500
+        
+  // burger menu ved 500
 

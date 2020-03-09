@@ -1,9 +1,50 @@
-.hej
-  // background-image: url("../../public/landscape.png")
-  // background-position: center
-  // height: 100vh
-  // width: 100%
 .forside-container
   grid-column-start: 2
   grid-column-end: 2
+  position: relative
+  z-index: 0
+  .hej 
+    position: fixed
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    // padding: 0
+    margin: 0
+    // sørger for det virker i de forskellige browsers
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    z-index: -2
+  .example-slide
+    align-items: center
+    background-color: #666
+    color: #999
+    display: flex
+    font-size: 1.5rem
+    justify-content: center
+    min-height: 10rem
+  
+    // bottom: 0;
+    // right: 0;
+//     <script>
+// export default {
+//   data () {
+//     return {
+//       items: [
+//         {
+//           src: require('../../public/landscape.png')
+//         },
+//         {
+//           src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
+//         },
+//         {
+//           src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
+//         }
+//       ]
+//     }
+//   }
+// }
+// </script>
   
