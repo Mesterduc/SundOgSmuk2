@@ -4,12 +4,12 @@
       <!-- lave det i JSON også bare loop igennem det -->
       <h1>Pris og Tjenester</h1>
         <div class="tjenester-container">
-          <table class="pris-tabel" style="width:100%">
+          <table class="pris-tabel">
             <tr>
               <th><h2>Klipning</h2></th>
             </tr>
             <tr>
-              <td>Dameklip med let føn</td>
+              <td class="table-cell">Dameklip med let føn</td>
               <td>260 kr.</td>
             </tr>
             <tr>
@@ -64,12 +64,12 @@
               <td>640 kr.</td>
             </tr>
           </table>
-          <table class="pris-tabel" style="width:100%">
+          <table class="pris-tabel">
             <tr>
               <th><h2> Refleks/Foliestriber - Inklusiv hårvask og føn</h2></th>
             </tr>
             <tr>
-              <td>kort hår</td>
+              <td class="table-cell">kort hår</td>
               <td>395 kr.</td>
             </tr>
             <tr>
