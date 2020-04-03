@@ -1,30 +1,38 @@
 .forside-container
   grid-column-start: 2
   grid-column-end: 2
-  position: relative
-  z-index: 0
+  margin-top: 30px
+  .forside-billede
+    float: left
+    animation: fade-in ease 10s
+  @keyframes fadeIn
+  opacity:0
+  opacity:1
+  .forside-text
+    font-size: 25px
   .hej 
-    position: fixed
-    left: 0
-    top: 0
-    height: 100%
-    width: 100%
+    height: 600px
+    width: 1000px
+    display: block
+    margin-left: auto
+    margin-right: auto
     // padding: 0
-    margin: 0
+    margin-top: 10px
     // sørger for det virker i de forskellige browsers
-    -webkit-background-size: cover
-    -moz-background-size: cover
-    -o-background-size: cover
-    background-size: cover
-    z-index: -2
-  .example-slide
-    align-items: center
-    background-color: #666
-    color: #999
-    display: flex
-    font-size: 1.5rem
-    justify-content: center
-    min-height: 10rem
+    // -webkit-background-size: cover
+    // -moz-background-size: cover
+    // -o-background-size: cover
+    // background-size: cover
+    // z-index: -2
+
+  // .example-slide
+  //   align-items: center
+  //   background-color: #666
+  //   color: #999
+  //   display: flex
+  //   font-size: 1.5rem
+  //   justify-content: center
+  //   min-height: 10rem
   
     // bottom: 0;
     // right: 0;
