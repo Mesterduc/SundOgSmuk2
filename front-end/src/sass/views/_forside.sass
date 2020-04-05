@@ -1,58 +1,43 @@
 .forside-container
   grid-column-start: 2
-  grid-column-end: 2
   margin-top: 30px
   .forside-billede
     float: left
-    animation: fade-in ease 10s
-  @keyframes fadeIn
-  opacity:0
-  opacity:1
+    margin-right: 30px
+    height: 400px
+    width: 350px
+    animation: fadein 2.5s
+    
   .forside-text
+    width: 1fr
     font-size: 25px
-  .hej 
-    height: 600px
-    width: 1000px
-    display: block
-    margin-left: auto
-    margin-right: auto
-    // padding: 0
-    margin-top: 10px
-    // sørger for det virker i de forskellige browsers
-    // -webkit-background-size: cover
-    // -moz-background-size: cover
-    // -o-background-size: cover
-    // background-size: cover
-    // z-index: -2
-
-  // .example-slide
-  //   align-items: center
-  //   background-color: #666
-  //   color: #999
-  //   display: flex
-  //   font-size: 1.5rem
-  //   justify-content: center
-  //   min-height: 10rem
+    animation: fadein 2.5s 
+    
+    .forside-text2
+      overflow-wrap: break-word
   
-    // bottom: 0;
-    // right: 0;
-//     <script>
-// export default {
-//   data () {
-//     return {
-//       items: [
-//         {
-//           src: require('../../public/landscape.png')
-//         },
-//         {
-//           src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
-//         },
-//         {
-//           src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
-//         }
-//       ]
-//     }
-//   }
-// }
-// </script>
-  
+  @media only screen and (max-width: 1200px)
+    .forside-billede
+      height: 0px
+      width: 0px
+.hej2
+  grid-column-start: 2
+  grid-row: 3
+  margin-top: 50px
+.hej 
+  height: 600px
+  width: 1000px
+  display: block
+  margin-left: auto
+  margin-right: auto
+  margin-top: 10px
+  animation: fadein 2.5s 
+@media only screen and (max-width: 1200px)
+    .hej 
+      height:400px
+      width: 650px  
+@keyframes fadein
+    from
+      opacity: 0
+    to
+      opacity: 1
