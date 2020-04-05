@@ -2,7 +2,7 @@
   <div class="main-container">
     <div class="priser-container">
       <!-- lave det i JSON også bare loop igennem det -->
-      <h1>Pris og Tjenester</h1>
+      <h1>Priser og Tjenester</h1>
         <div class="tjenester-container">
           <table class="pris-tabel">
             <tr>

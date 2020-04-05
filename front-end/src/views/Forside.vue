@@ -1,16 +1,22 @@
 <template>
   <div class="main-container">
     <div class="forside-container">
-      <img class="forside-billede" src="../../public/billeder/mor.jpg" alt="img">
-      <div class="forside-text">
-        <h2>Velkommen til Salon Sund og Smuk.</h2>
+      <div>
+        <img class="forside-billede" src="../../public/billeder/mor.jpg" alt="img">
+        <img class="forside-billede2" src="../../public/billeder/insideSalon.jpg" alt="img">
+        <img class="forside-billede3" src="../../public/billeder/insideSalon2.jpg" alt="img">
+      </div>
+    </div>
+    <div class="forside-text">
+        <h1>Velkommen til Salon Sund og Smuk.</h1>
         <p class="forside-text2">
           sssdddddddddddddddddddddddddddddddddddddddddddddddddddd
           sssdddddddddddddddddddddddddddddddddddsdddddddddddddddddddd
         </p>
       </div>
-    </div>
-    <div class="hej2">
+    <div class="nyheds-container">
+      <h1>Nyheder</h1>
+      <p>På grund af Corona virussen har jeg valgt at holde lukket ind til d. 13 april</p>
       <img class="hej" src="../../public/billeder/salon2.jpg" alt="">
     </div>
   </div>
