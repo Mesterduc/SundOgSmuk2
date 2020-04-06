@@ -1,10 +1,20 @@
 <template>
   <div class="main-container">
     <div class="priser-container">
-      <!-- lave det i JSON også bare loop igennem det -->
       <h1>Priser og Tjenester</h1>
         <div class="tjenester-container">
-          <table class="pris-tabel">
+          <table class="pris-tabel"
+           v-for="hej in tjenesterPriser.Kategori" v-bind:key="hej.Navn"
+           >
+            <tr>
+              <th><h2 > {{hej.Navn}} </h2></th>
+            </tr>
+            <tr v-for="hej2 in hej.Tjenester" v-bind:key="hej2.pris">
+              <td class="table-cell" >{{hej2.tjeneste}}</td>
+              <td>{{hej2.pris}}</td>
+            </tr>
+          </table>
+          <!-- <table class="pris-tabel">
             <tr>
               <th><h2>Klipning</h2></th>
             </tr>
@@ -63,8 +73,8 @@
               <td>langt hår</td>
               <td>640 kr.</td>
             </tr>
-          </table>
-          <table class="pris-tabel">
+          </table> -->
+          <!-- <table class="pris-tabel">
             <tr>
               <th><h2> Refleks/Foliestriber - Inklusiv hårvask og føn</h2></th>
             </tr>
@@ -120,7 +130,7 @@
               <td>Vipper, bryn og ret</td>
               <td>200 kr.</td>
             </tr>
-          </table>
+          </table> -->
         </div>
     </div>
     <div class="kontakt">
@@ -140,12 +150,14 @@
 </template>
 
 <script>
-import tjensterPriser from '../data/tjenestePriser.json'
+import tjenesterPriser from '../data/tjenestePriser.js'
+
 export default {
   name: 'home',
   data () {
     return {
-      parsedData: JSON.parse(tjensterPriser)
+      display: false,
+      tjenesterPriser
     }
   }
 }
