@@ -1,19 +1,22 @@
-.forside-container
+.forside-bileder-container
   grid-column-start: 2
   margin-top: 30px
   .forside-billede, .forside-billede2, .forside-billede3
     float: left
-    margin-right: 25px
     height: 400px
-    width: 30%
+    width: 31.5%
     animation: fadeinImage 1.5s
-  @media only screen and (max-width: 1100px)
+  .forside-billede2
+    margin: 0px 20px 0px 20px
+  @media only screen and (max-width: 1280px)
+    .forside-billede
+      margin-right: 25px
     .forside-billede, .forside-billede3
-      width: 45%
+      width: 48%
       display: inline-block
     .forside-billede2
       display: none   
-  @media only screen and (max-width:750px)
+  @media only screen and (max-width:800px)
     .forside-billede
       width: 95%
     .forside-billede2, .forside-billede3
@@ -26,22 +29,19 @@
   animation: fadeinText 1.5s 
   .forside-text2
     overflow-wrap: break-word
-  
-
       
 .nyheds-container
   grid-column-start: 2
   grid-row: 3
   margin-top: 50px
-  // text-align: center
   animation: fadeinSalonImage 2s 
-.hej 
-  width: 100%
-  margin-top: 10px
+  .hej 
+    width: 97%
+    margin: 20px 0 20px 0px
   
 @media only screen and (max-width: 1200px)
      
-
+// bevægelser på forsiden
 @keyframes fadeinImage
     from
       opacity: 0

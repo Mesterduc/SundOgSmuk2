@@ -1,0 +1,39 @@
+{
+  "kategori" : [{
+    "Klipning" :[
+      {"tjenste":"Dameklip med let føn", "pris": "260"},
+      {"tjenste":"Dameklip med hårvask og føn", "pris":"280"},
+      {"tjenste":"Herreklip med let føn", "pris":"235"},
+      {"tjenste":"Herreklip med hårvask og føn", "pris":"250"},
+      {"tjenste":"Børneklip ( 0-6 år )", "pris":"175"},
+      {"tjenste":"Børneklip ( 7-13 år )", "pris":"195"}
+      ],
+    "Opsætning" : [
+      {"tjenste":"Kort hår - Vask og opsætning", "pris": "215"},
+      {"tjenste":"Langt hår - Opsætning", "pris": "400"},
+      {"tjenste":"Langt hår - Opsætning og makeup", "pris": "650"}
+      ],
+    "Hel farvning - Inklusiv hårvask og føn" : [
+      {"tjenste":"Kort hår", "pris": "395"},
+      {"tjenste":"Mellemlangt hår", "pris": "530"},
+      {"tjenste":"Langt hår", "pris": "640"}
+      ],
+    "Refleks/Foliestriber - Inklusiv hårvask og føn" : [
+      {"tjenste":"Kort hår", "pris": "395"},
+      {"tjenste":"Mellemlangt hår", "pris": "395"},
+      {"tjenste":"Langt hår", "pris": "395"}
+      ],
+    "Permanent - Inklusiv hårvask og føn" : [
+      {"tjenste":"Kort hår", "pris": "480"},
+      {"tjenste":"Mellemlangt hår", "pris": "580"},
+      {"tjenste":"Langt hår", "pris": "690"},
+      {"tjenste":"Vand donation", "pris": "213"}
+      ],
+    "Farvning - Vipper og Bryn" : [
+      {"tjenste":"Vipper", "pris": "95"},
+      {"tjenste":"Bryn", "pris": "85"},
+      {"tjenste":"Retning af bryn", "pris": "50"},
+      {"tjenste":"Vipper, bryn og ret", "pris": "200"}
+      ]
+  }]
+}

@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <div class="forside-container">
+    <div class="forside-bileder-container">
       <div>
         <img class="forside-billede" src="../../public/billeder/mor.jpg" alt="img">
         <img class="forside-billede2" src="../../public/billeder/insideSalon.jpg" alt="img">

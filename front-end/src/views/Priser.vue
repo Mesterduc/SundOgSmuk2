@@ -140,9 +140,13 @@
 </template>
 
 <script>
+import tjensterPriser from '../data/tjenestePriser.json'
 export default {
   name: 'home',
-  components: {
+  data () {
+    return {
+      parsedData: JSON.parse(tjensterPriser)
+    }
   }
 }
 </script>
