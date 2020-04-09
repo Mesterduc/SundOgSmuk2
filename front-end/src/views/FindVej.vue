@@ -11,6 +11,10 @@
         @click="center = item.position"
       />
     </GmapMap>
+
+    <h2>Addresse</h2>
+    <p>5856 Ryslinge</p>
+    <p>Ullemoseparken 30</p>
   </div>
   </div>
 </template>

@@ -18,9 +18,7 @@
       <h1>Nyheder</h1>
       <p>På grund af Corona virussen har jeg valgt at holde lukket ind til d. 13 april</p>
       <h1>Kontakt</h1>
-        <p>Du er altid velkommen til </p>
-        <p>Ullemoseparken 30</p>
-        <p>5856 Ryslinge</p>
+        <p>Du er altid velkommen til at kontakte mig på telefon eller E-mail hvis du har nogen spørgsmål</p>
         <p>Tlf: 23247077</p>
         <p>Mail: phuong@.......com</p>
       <img class="hej" src="../../public/billeder/salon2.jpg" alt="">
