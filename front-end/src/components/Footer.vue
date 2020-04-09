@@ -16,8 +16,20 @@
       </div>
     </div>
     <div class="copyright">
-      <p>2020 Copyright &copy; Salon Sund Og Smuk</p>
+      <p>{{ dateÅrstal }}&copy; Copyright  Salon Sund Og Smuk </p>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import store from '../store/index'
+
+export default {
+  computed: {
+    dateÅrstal () {
+      return store.state.dateÅrstal
+    }
+  }
+}
+</script>
