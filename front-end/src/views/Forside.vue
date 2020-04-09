@@ -17,6 +17,12 @@
     <div class="nyheds-container">
       <h1>Nyheder</h1>
       <p>På grund af Corona virussen har jeg valgt at holde lukket ind til d. 13 april</p>
+      <h1>Kontakt</h1>
+        <p>Du er altid velkommen til </p>
+        <p>Ullemoseparken 30</p>
+        <p>5856 Ryslinge</p>
+        <p>Tlf: 23247077</p>
+        <p>Mail: phuong@.......com</p>
       <img class="hej" src="../../public/billeder/salon2.jpg" alt="">
     </div>
   </div>
